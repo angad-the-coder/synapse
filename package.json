@@ -11,7 +11,10 @@
   },
   "dependencies": {
     "@headlessui/tailwindcss": "^0.2.2",
+    "@nuxtjs/ngrok": "^3.0.1",
     "@nuxtjs/tailwindcss": "^6.13.1",
+    "chart.js": "^4.4.7",
+    "muse-js": "^3.3.0",
     "nuxt": "^3.15.4",
     "vue": "latest",
     "vue-router": "latest"

@@ -1,16 +1,18 @@
 <template>
-  <div class="fixed z-50 h-12 w-full border-b border-gray-300/50 bg-gray-50 px-4 opacity-100 dark:border-slate-700/50 dark:bg-slate-850 sm:h-16 sm:shadow">
+  <div class="fixed z-50 h-12 w-full border-b border-gray-300/50 bg-gray-50 px-4 opacity-100 dark:border-slate-700/50 dark:bg-slate-850 sm:h-16 sm:shadow overflow-hidden">
     <div class="mx-auto flex h-full max-w-7xl items-center justify-between">
       <NuxtLink to="/">
-        <!-- <Logo class="h-7 sm:h-8" /> -->
+        <Logo class="h-7 sm:h-8 w-auto" />
       </NuxtLink>
       <div class="flex items-center space-x-2">
-        <div class="flex items-center space-x-3 border-r border-gray-300 pr-3 dark:border-slate-700 sm:space-x-4 sm:pr-4">
-          <NuxtLink class="text-sm font-medium text-gray-500 hover:text-sky-600 dark:text-slate-400 dark:hover:text-indigo-300 sm:text-base" to="/#">
-            <!-- Middle Links -->
+        <div class="flex items-center space-x-3 dark:border-slate-700 sm:space-x-4">
+          <NuxtLink class="text-sm font-medium text-gray-500 hover:text-sky-600 dark:text-slate-400 dark:hover:text-indigo-300 sm:text-base" to="/about">
+            About
+          </NuxtLink>
+          <NuxtLink class="text-sm font-medium text-gray-500 hover:text-sky-600 dark:text-slate-400 dark:hover:text-indigo-300 sm:text-base" to="/demo">
+            Demo
           </NuxtLink>
         </div>
-        <ColorModeBtn />
       </div>
     </div>
   </div>

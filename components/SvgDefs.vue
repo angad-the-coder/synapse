@@ -1,18 +1,18 @@
 <template>
   <svg class="h-0">
     <defs>
-      <linearGradient id="bqGradient" gradientTransform="rotate(90)">
-        <stop offset="0%" stop-color="#0ea5e9" />
-        <stop offset="100%" stop-color="#4f46e5" />
-      </linearGradient>
-      <linearGradient id="prideGradient" gradientTransform="rotate(90)">
-        <stop offset="0%" stop-color="#ef4444" />
-        <stop offset="20%" stop-color="#f97316" />
-        <stop offset="40%" stop-color="#eab308" />
-        <stop offset="60%" stop-color="#22c55e" />
-        <stop offset="80%" stop-color="#3b82f6" />
-        <stop offset="100%" stop-color="#8b5cf6" />
-      </linearGradient>
-    </defs>
+        <linearGradient id="lighting-gradient" x1="233.864" y1="227.658" x2="147.78" y2="435.028" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#FE9A00"/>
+          <stop offset="1" stop-color="#FFD230"/>
+        </linearGradient>
+        <linearGradient id="gray-gradient-1" x1="156.795" y1="398.188" x2="16.3767" y2="652.719" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#99A1AF"/>
+          <stop offset="1" stop-color="#99A1AF" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="gray-gradient-2" x1="366" y1="13" x2="226" y2="265" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#99A1AF" stop-opacity="0"/>
+          <stop offset="1" stop-color="#99A1AF"/>
+        </linearGradient>
+      </defs>
   </svg>
 </template>
