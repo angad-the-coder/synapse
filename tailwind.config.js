@@ -19,6 +19,15 @@ module.exports = {
       fontSize: {
         xxs: ["0.625rem", "0.75rem"],
       },
+      keyframes: {
+        expand: {
+          '0%': { width: '0%' },
+          '100%': { width: '100%' },
+        },
+      },
+      animation: {
+        expand: 'expand 14.5s linear infinite',
+      },
       typography: ({ theme }) => ({
         DEFAULT: {
           css: {
