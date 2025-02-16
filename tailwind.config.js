@@ -32,19 +32,13 @@ module.exports = {
         DEFAULT: {
           css: {
             ul: {
-              "--tw-prose-bullets": theme("colors.sky[300]"),
+              "--tw-prose-bullets": theme("colors.amber[300]"),
               "list-style": "disc",
-              ".dark &": {
-                "--tw-prose-bullets": theme("colors.indigo[800]"),
-              },
             },
             a: {
               color: "inherit",
-              "text-decoration-color": theme("colors.sky[400]"),
+              "text-decoration-color": theme("colors.amber[400]"),
               "font-weight": "inherit",
-              ".dark &": {
-                "text-decoration-color": theme("colors.indigo[400]"),
-              },
               "text-decoration-thickness": "1px",
               "&:hover": {
                 "text-decoration-thickness": "2px",

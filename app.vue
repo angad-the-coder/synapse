@@ -20,8 +20,4 @@ useHead({
     return titleChunk ? `${titleChunk} | Synapse` : "Synapse";
   },
 });
-const router = useRouter();
-router.afterEach((_to, _from) => {
-  window.scrollTo(0, 0);
-});
 </script>

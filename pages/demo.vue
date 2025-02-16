@@ -31,7 +31,12 @@
     </div>
     <StyledDiv>
       <template #title>
-        Generated Video
+        Generated Prompt
+      </template>
+    </StyledDiv>
+    <StyledDiv>
+      <template #title>
+        Generated Images
       </template>
     </StyledDiv>
   </div>
